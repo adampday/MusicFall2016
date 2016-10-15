@@ -22,5 +22,7 @@ namespace MusicFall2016.Controllers
             var albums =  _context.Albums.ToList();
             return View(albums);
         }
+
+
     }
 }
